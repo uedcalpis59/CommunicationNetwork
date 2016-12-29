@@ -88,12 +88,12 @@ lineskip=-0.5ex%
 
 \section{LAN，MAN，WANの正式名称と適用領域}
 \begin{enumerate}
-\item{LAN : Local-Area Network}\\
-施設内などに設けられた広がりが数百メートル以内のネットワーク．
-\item{MAN : Metropolitan-Area Network}\\
-都市内の通信に用いられる広がりが数十キロメートル以内のネットワーク．
-\item{WAN : Wide-Area Network}\\
-都市間およびそれ以上の長距離を結ぶネットワーク．広がりは数十キロメートル以上．
+	\item{LAN : Local-Area Network}\\
+		施設内などに設けられた広がりが数百メートル以内のネットワーク．
+	\item{MAN : Metropolitan-Area Network}\\
+		都市内の通信に用いられる広がりが数十キロメートル以内のネットワーク．
+	\item{WAN : Wide-Area Network}\\
+		都市間およびそれ以上の長距離を結ぶネットワーク．広がりは数十キロメートル以上．
 \end{enumerate}
 
 \section{ネットワークの各種トポロジー}
@@ -108,24 +108,62 @@ lineskip=-0.5ex%
 ただし中心ノードで障害が発生した場合に全てのネットワークがダウンするため，障害耐性は低い．
 \item{リング : Ring}\\
 リンクが円を描くように隣接するノード間にのみ存在するネットワーク．
-
+1つの線路で障害が発生した場合にも逆方向から通信が可能であるが，2箇所以上障害が発生した場合通信が一切できなくなる．
 \item{バス : Bus}\\
+中心にバス線があり，全てのノードはそのバス線と直接リンクで結ばれている．
+送信した信号が全ての端末で受信される．
+全てのノードがバス線を共有するため，信号の衝突による干渉が発生しないような工夫が必要になる．
 \item{トリー : Tree}\\
+ルートノードから枝分かれする様に伸びていくネットワーク．
+CATVのシステムやUSBのような1対多通信が主になる場合に使われる．
 \end{enumerate}
+以上のネットワークを図示すると，図\ref{topology}のようになる．
+\begin{figure}[h]
+	\centering
+	\begin{minipage}{0.25\hsize}
+		\centering
+		\includegraphics[width=0.8\hsize]{files/topology_mesh.ai}\\
+		(a)メッシュ
+	\end{minipage}
+	\begin{minipage}{0.25\hsize}
+		\centering
+		\includegraphics[width=0.8\hsize]{files/topology_star.ai}\\
+		(b)スター
+	\end{minipage}
+	\begin{minipage}{0.25\hsize}
+		\centering
+		\includegraphics[width=0.8\hsize]{files/topology_ring.ai}\\
+		(c)リング
+	\end{minipage}
+	\begin{minipage}{0.35\hsize}
+		\centering
+		\includegraphics[width=0.8\hsize]{files/topology_bus.ai}\\
+		(d)バス
+	\end{minipage}
+	\begin{minipage}{0.35\hsize}
+		\centering
+		\includegraphics[width=0.8\hsize]{files/topology_tree.ai}\\
+		(e)トリー
+	\end{minipage}
+	\caption{各種トポロジ}\label{topology}
+\end{figure}
+
 \section{メッシュ網，スター網，リング網におけるノード数と伝送路数の関係}
 全てのノード数を$n$とする．
 \begin{enumerate}
 \item{メッシュ網}\\
 ここではフルメッシュについて考えるものとする．
-フルメッシュである場合，全てのノード同士が1つのリンクによって結ばれるため，伝送路数は全てのノードから2つのノードを取り出す組み合わせに等しい．
-すなわち，\underline{${}_nC_2$}である．
+フルメッシュである場合，全てのノード同士が1つのリンクによって結ばれるため，伝送路数は全てのノードから2つのノードを取り出す組み合わせに等しく，\underline{${}_nC_2$}である．
 \item{スター網}\\
 中心ノードを除く$n-1$個のノードが各々1つずつ中心ノードとのリンクを持つ．
 よって伝送路数は\underline{$n-1$}である．
 \item{リング網}\\
 全てのノードを頂点として多角形を描くようにリンクが存在するため，伝送路数は$n$角形の辺の数に等しく，\underline{$n$}である．
 \end{enumerate}
+
 \section{経路切替え型ネットワークと媒体共有型ネットワークの相違点および具体例}
+
+
 \section{電話ネットワークにおいて2線式および4線式通信路の違いと使い分けられている理由}
 \section{}
 \section{}

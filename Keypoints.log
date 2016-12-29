@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.4.19)  29 DEC 2016 13:49
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.4.19)  29 DEC 2016 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -858,10 +858,29 @@ LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 86.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 86.
+File: files/topology_mesh.ai Graphic file (type pdf)
+
+<files/topology_mesh.ai>
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 116.
+(Font)              scaled to size 6.47278pt on input line 127.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 116.
+(Font)              scaled to size 4.62341pt on input line 127.
+File: files/topology_star.ai Graphic file (type pdf)
+ <files/topology_star.ai>
+File: files/topology_ring.ai Graphic file (type pdf)
+ <files/topology_ring.ai>
+File: files/topology_bus.ai Graphic file (type pdf)
+
+<files/topology_bus.ai>
+File: files/topology_tree.ai Graphic file (type pdf)
+ <files/topology_tree.ai>
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 148.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 148.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.22636pt): 
@@ -871,14 +890,14 @@ Package Fancyhdr Warning: \headheight is too small (14.22636pt):
 
 [1
 
-] [2] (./Keypoints.aux) ) 
+] [2] [3] (./Keypoints.aux) ) 
 Here is how much of TeX's memory you used:
- 23075 strings out of 493724
- 438296 string characters out of 6151082
- 495100 words of memory out of 5000000
- 26311 multiletter control sequences out of 15000+600000
- 16737 words of font info for 78 fonts, out of 8000000 for 9000
+ 23101 strings out of 493724
+ 438802 string characters out of 6151082
+ 496100 words of memory out of 5000000
+ 26327 multiletter control sequences out of 15000+600000
+ 17238 words of font info for 81 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  55i,11n,54p,10418b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Keypoints.dvi (2 pages, 5732 bytes).
+Output written on Keypoints.dvi (3 pages, 7796 bytes).
