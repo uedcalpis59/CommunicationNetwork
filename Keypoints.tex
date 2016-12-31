@@ -51,8 +51,8 @@
 
 %タイトル設定
 \title{「通信ネットワーク」 キーポイント}
-\date{\today}
 \author{}
+\date{\vspace{-10mm}3年 後期}
 
 %「jlisting.sty」が必要
 \usepackage{listings,jlisting}
@@ -162,26 +162,15 @@ CATVのシステムやUSBのような1対多通信が主になる場合に使わ
 \end{enumerate}
 
 \section{経路切替え型ネットワークと媒体共有型ネットワークの相違点および具体例}
-両者の相違点および具体例を表\ref{difference}に示す．
-\begin{table}[H]
-	\centering
-	\caption{ネットワークの形態間の相違点および具体例} \label{difference}
-	\begin{tabular}{|l||l|l|} 
-		\cline{2-3}
-		\multicolumn{1}{c|}{}&\multicolumn{1}{c|}{\textbf{経路切替え型ネットワーク}}&\multicolumn{1}{c|}{\textbf{媒体共有型ネットワーク}}\\\hline
-		ネットワーク&固定&固定しない\\\hline
-		
-	\end{tabular}
-\end{table}
+
 
 \section{電話ネットワークにおいて2線式および4線式通信路の違いと使い分けられている理由}
 
 
 \section{呼量[単位:アーラン(Erlang)]の算出法}
-
+呼量とは，ネットワークを構成する設備の中を流れる信号の量(トラヒック量)を呼量と呼ぶ．呼量は，一定時間$T$匂いて$n$回生起した呼の保留時間(通話時間)をそれぞれ，$t_1, t_2, \cdots , t_n$とすると，\[\displaystyle a = \frac{\displaystyle \sum_{i=1}^n t_i}{T}\]と定義される．
 
 \section{回線交換方式とパケット交換方式の原理および前者に比べた時の後者の長所・短所}
-
 
 
 \section{データ通信ネットワークにおける集中型と分散型の違いと特徴}
@@ -189,6 +178,12 @@ CATVのシステムやUSBのような1対多通信が主になる場合に使わ
 
 
 \section{OSI参照モデルの各層の名称}
+OSI参照モデルを図\ref{osi_refmodel}に示す．
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=7.5cm]{files/protocols_osi_model.ai}
+	\caption{OSI参照モデル}\label{osi_refmodel}
+\end{figure}
 
 
 
