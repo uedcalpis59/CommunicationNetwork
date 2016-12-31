@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.4.19)  31 DEC 2016 13:55
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.4.19)  31 DEC 2016 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -898,10 +898,10 @@ Overfull \vbox (357.0973pt too high) has occurred while \output is active []
 
 [4] (./Keypoints.aux) ) 
 Here is how much of TeX's memory you used:
- 23106 strings out of 493724
- 438926 string characters out of 6151082
+ 23105 strings out of 493724
+ 438914 string characters out of 6151082
  496112 words of memory out of 5000000
- 26331 multiletter control sequences out of 15000+600000
+ 26330 multiletter control sequences out of 15000+600000
  17238 words of font info for 81 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  55i,11n,54p,10418b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
