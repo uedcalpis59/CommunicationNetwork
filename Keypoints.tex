@@ -10,6 +10,7 @@
 \usepackage{here}
 \usepackage{fancyhdr}
 \usepackage{lscape} %ページ全体を用いた横向き画像使用時に使用
+\usepackage{tabularx}
 
 %マージン設定
 %横
@@ -181,7 +182,7 @@ CATVのシステムやUSBのような1対多通信が主になる場合に使わ
 
 
 \section{OSI参照モデルの各層の名称}
-OSI参照モデルを図\ref{osi_refmodel}に示す．
+OSI参照モデルを図\ref{osi_refmodel}に示す．名称は
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=7.5cm]{files/protocols_osi_model.ai}
@@ -191,7 +192,20 @@ OSI参照モデルを図\ref{osi_refmodel}に示す．
 
 
 \section{媒体共有型ネットワークを分類したときの3つの形式とそれぞれの特徴}
-
+\begin{table}[H]
+	\centering
+	\caption{媒体共有型ネットワークの分類} \label{media-sharing-network}
+	\begin{tabularx}{0.9\hsize}{|l|X|} 
+		\hline
+		\multicolumn{1}{|c|}{\textbf{種類}}&\multicolumn{1}{c|}{\textbf{概要}}\\\hline\hline
+		ランダムアクセス型&各端末が，他端末との調整をすることなくそれぞれの判断で信号を送出する．
+							できる限り衝突を減らすため，送出の前と後に伝送媒体をモニターする必要がある．\\\hline
+		トークンパッシング型&端末間で信号送出権を巡回させ，できる限り公平に信号を送出できるようにする．
+							そのために特殊な制御信号(トークン)を用い，これを受信した端末が信号を送出する．\\\hline
+		ポーリンング型&端末に信号送出権を与える役割を担う制御局をネットワーク内に設ける．
+							制御曲は送出したい信号を保持している端末に順次送出権を割り当てる．\\\hline
+	\end{tabularx}
+\end{table}
 
 
 \section{ランダムアクセス型のプロトコルであるALOHAにおいて，トラヒックとスループットをそれぞれ横軸と縦軸で表したときに得られるカーブの形(略図)そのような形になる定性的理由}

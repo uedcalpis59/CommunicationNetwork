@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.4.19)  31 DEC 2016 13:57
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.4.19)  5 JAN 2017 22:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -771,32 +771,51 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen266
+\extrarowheight=\dimen267
+\NC@list=\toks35
+\extratabsurround=\skip128
+\backup@length=\skip129
+)
+\TX@col@width=\dimen268
+\TX@old@table=\dimen269
+\TX@old@col=\dimen270
+\TX@target=\dimen271
+\TX@delta=\dimen272
+\TX@cols=\count162
+\TX@ftn=\toks36
+)
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 28.
+less on input line 29.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 30.
+less on input line 31.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count162
+\lst@mode=\count163
 \lst@gtempboxa=\box77
-\lst@token=\toks35
-\lst@length=\count163
-\lst@currlwidth=\dimen266
-\lst@column=\count164
-\lst@pos=\count165
-\lst@lostspace=\dimen267
-\lst@width=\dimen268
-\lst@newlines=\count166
-\lst@lineno=\count167
-\lst@maxwidth=\dimen269
+\lst@token=\toks37
+\lst@length=\count164
+\lst@currlwidth=\dimen273
+\lst@column=\count165
+\lst@pos=\count166
+\lst@lostspace=\dimen274
+\lst@width=\dimen275
+\lst@newlines=\count167
+\lst@lineno=\count168
+\lst@maxwidth=\dimen276
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count168
-\lst@skipnumbers=\count169
+\c@lstnumber=\count169
+\lst@skipnumbers=\count170
 \lst@framebox=\box78
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
@@ -806,7 +825,7 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (./jlisting.sty
 Package: jlisting 2006/02/20 0.2 (Thor)
-\lst@nextchar=\count170
+\lst@nextchar=\count171
 \lst@inputfile=\read2
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -819,52 +838,52 @@ LaTeX Warning: Unused global option(s):
 (./Keypoints.aux)
 \openout1 = `Keypoints.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box79
-\c@lstlisting=\count171
+\c@lstlisting=\count172
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 83.
+(Font)              scaled to size 15.9785pt on input line 84.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 83.
+(Font)              scaled to size 15.9785pt on input line 84.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 83.
+(Font)              scaled to size 11.09619pt on input line 84.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 83.
+(Font)              scaled to size 11.09619pt on input line 84.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 83.
+(Font)              scaled to size 7.39746pt on input line 84.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 83.
+(Font)              scaled to size 5.5481pt on input line 84.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 86.
+(Font)              scaled to size 13.31541pt on input line 87.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 86.
+(Font)              scaled to size 13.31541pt on input line 87.
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 86.
+(Font)              scaled to size 13.31541pt on input line 87.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 86.
+(Font)              scaled to size 13.31541pt on input line 87.
 File: files/topology_mesh.ai Graphic file (type pdf)
 
 <files/topology_mesh.ai>
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 127.
+(Font)              scaled to size 6.47278pt on input line 128.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 127.
+(Font)              scaled to size 4.62341pt on input line 128.
 File: files/topology_star.ai Graphic file (type pdf)
  <files/topology_star.ai>
 File: files/topology_ring.ai Graphic file (type pdf)
@@ -875,9 +894,9 @@ File: files/topology_bus.ai Graphic file (type pdf)
 File: files/topology_tree.ai Graphic file (type pdf)
  <files/topology_tree.ai>
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 148.
+(Font)              scaled to size 8.32214pt on input line 149.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 148.
+(Font)              scaled to size 8.32214pt on input line 149.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -893,17 +912,17 @@ Package Fancyhdr Warning: \headheight is too small (14.22636pt):
 ]
 File: files/protocols_osi_model.ai Graphic file (type pdf)
  <files/protocols_osi_model.ai> [2] [3]
-Overfull \vbox (357.0973pt too high) has occurred while \output is active []
+Overfull \vbox (309.08173pt too high) has occurred while \output is active []
 
 
 [4] (./Keypoints.aux) ) 
 Here is how much of TeX's memory you used:
- 23105 strings out of 493724
- 438914 string characters out of 6151082
- 496112 words of memory out of 5000000
- 26330 multiletter control sequences out of 15000+600000
- 17238 words of font info for 81 fonts, out of 8000000 for 9000
+ 23207 strings out of 493724
+ 440210 string characters out of 6151082
+ 499857 words of memory out of 5000000
+ 26425 multiletter control sequences out of 15000+600000
+ 17748 words of font info for 84 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  55i,11n,54p,10418b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Keypoints.dvi (4 pages, 12420 bytes).
+Output written on Keypoints.dvi (4 pages, 13952 bytes).
